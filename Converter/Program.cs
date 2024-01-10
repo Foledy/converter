@@ -12,14 +12,14 @@ double ConvertToDouble(string input)
     {
         if (dotIndex.HasValue && dotIndex == 1)
         {
-            throw new ArgumentException("Вы ввели число некорректно!");
+            throw new ArgumentException("Вы ввели число не правильно!");
         }
     }
     else
     {
         if (dotIndex.HasValue && dotIndex == 0)
         {
-            throw new ArgumentException("Вы ввели число некорректно!");
+            throw new ArgumentException("Вы ввели число не правильно!");
         }
     }
 
